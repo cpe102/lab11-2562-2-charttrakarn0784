@@ -1,3 +1,4 @@
+
 #include<iostream>
 
 using namespace std;
@@ -21,9 +22,3 @@ void mySwap(int &x,int &y)
 	x = y;
 	y = hold;
 }
-//Write function definition here
-/*
-??? mySwap (???){
-
-}
-*/

@@ -5,7 +5,7 @@ using namespace std;
 
 //Declare prototype of function template mySwap() here
 template<class T>
-T mySwap(T &,T &);
+void mySwap(T &,T &);
 
 int main(){
 	
@@ -36,11 +36,11 @@ int main(){
 }
 
 template<class T>
-T mySwap(T &x,T &y)
+void mySwap(T &x,T &y)
 {
 	T hold = x;
-	return x = y;
-	return y = hold;
+	x = y;
+	y = hold;
 }
 
 
